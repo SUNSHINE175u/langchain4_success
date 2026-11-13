@@ -1,0 +1,18 @@
+# requirements.txt
+# 由 test.py 的 import 推导生成
+# 安装：pip install -r requirements.txt
+
+# 核心框架
+langchain-core
+langchain-openai
+langchain-text-splitters
+
+# OpenAI 兼容客户端（用于腾讯混元 TokenHub 接口）
+openai
+
+# 向量检索
+faiss-cpu        # 如需 GPU 版请改为 faiss-gpu
+numpy
+
+# PDF 解析（加载 ./test.pdf 时使用）
+pypdf
